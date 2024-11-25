@@ -7,12 +7,13 @@ import TypeWriter from "./TypeWriter";
 function Home() {
   return (
     <section>
+      {/* 간단한 자기 소개 */}
       <Container fluid className="home-section" id="home">
         <Container className="home-content">
           <Row>
             <Col md={6} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hi There!{" "}
+                안녕하세요!{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
                 </span>
@@ -47,6 +48,7 @@ function Home() {
           <Row>
             <Col md={12} className="home-about-social">
               <h1>Contact</h1>
+              {/* 연락처(github, instagram, E-mail) */}
               <SocialMedia />
             </Col>
           </Row>

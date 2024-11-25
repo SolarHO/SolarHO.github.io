@@ -6,7 +6,7 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            안녕하세요, 저는 <span className="purple">한국 </span>
+            저는 <span className="purple">한국 </span>
             의 웹&앱 개발자 <span className="purple"> 이선호 </span>입니다.
             <br />
             저는 실생활에서 나오는 다양한 아이디어를 구현하여 많은 사람들에게 실질적으로 도움이 되고
