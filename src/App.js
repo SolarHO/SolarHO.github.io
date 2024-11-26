@@ -11,6 +11,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 import ScrollToTop from "./components/ScrollToTop";
 
+//페이지 라우터 설정
 function App() {
   const [load, upadateLoad] = useState(true);
 
