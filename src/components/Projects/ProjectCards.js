@@ -17,6 +17,10 @@ function ProjectCards(props) {
           <BiLinkExternal /> &nbsp;
           Go Github
         </Button>
+        <Button variant="primary" href={props.Article_link} target="_blank"className="download-button">
+          <BiLinkExternal /> &nbsp;
+          Article
+        </Button>
       </Card.Body>
     </Card>
   );

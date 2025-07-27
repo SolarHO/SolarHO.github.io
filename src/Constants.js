@@ -2,8 +2,10 @@ import MEOMEOKJI from "./Assets/Projects/Meomeokji.png";
 import DAEDONG from "./Assets/Projects/대동여지도.png";
 import FTS from "./Assets/Projects/Java_FTS.png";
 import INHATAB from "./Assets/Projects/INHATAB.png";
-import SPRING from "./Assets/Projects/Spring.png";
+import Plogging from "./Assets/Projects/Plogging.png";
+import Customize_AD from "./Assets/Projects/Customize_AD.png";
 
+//Conteant(프로젝트)
 export const PROJECTS = [
   {
     image: MEOMEOKJI,
@@ -34,21 +36,29 @@ export const PROJECTS = [
     url: "https://github.com/SolarHO/INHATAB",
   },
   {
-    image: SPRING,
-    name: "SPRING 게시판",
-    technologyUsed: "Spring, Javascript, Oracle",
-    description: "Spring 프레임워크를 이용하여 MVC모델에 대한 학습을 위해 만든 간단한 게시판 사이트 입니다.",
-    url: "https://github.com/SolarHO/Spring_bbs",
+    image: Plogging,
+    name: "Plogging APP",
+    technologyUsed: "Android, YOLO, TFLite",
+    description: "AI 기반 쓰레기 분류 모델을 이용한 플로깅 활동 기록 앱입니다.",
+    url: "https://github.com/IMBLOP/Plogging_App",
   },
+  {
+    image: Customize_AD,
+    name: "성별 맞춤 광고 시스템",
+    technologyUsed: "OpenCV, GCS, Django, Raspberry Pi",
+    description: "OpenCV기반 성별 구분 AI모델을 이용한 사용자 맞춤 광고 시스템으로 사용자의 성별과, 착용악세사리, 연령대를 판단하여 광고를 노출하는 시스템입니다.",
+    url: "https://github.com/SolarHO/inhatc-24-1/tree/main",
+  }
 ];
 
+//사용 기술 스택
 export const SKILLS = [
   { name: "JSP", initialRating: 4 },
   { name: "Flutter", initialRating: 4 },
+  { name: "android", initialRating: 2},
   { name: "Spring", initialRating: 2 },
   { name: "Django", initialRating: 2 },
   { name: "JavaScript", initialRating: 3 },
-  { name: "Html", initialRating: 4 },
   { name: "CSS", initialRating: 3 },
   { name: "MySQL", initialRating: 4 },
   { name: "OracleDB", initialRating: 3 },
@@ -57,4 +67,5 @@ export const SKILLS = [
   { name: "Git", initialRating: 4 },
 ];
 
+//사용 가능 툴
 export const TOOLS = ["Visual Studio Code", "Eclipse IDE", "Git", "Chrome DevTools", "Npm (Node Package Manager)", "Amazon Web Service" , "FireBase", "Linux",]

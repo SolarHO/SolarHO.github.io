@@ -13,7 +13,7 @@ function AboutCard() {
             즐거운 경험을 주는 것을 목표로 개발을 하고있습니다.
             <br />
             JSP와 Django, Spring 프레임워크를 이용하여 맞춤형 웹사이트 개발을 통한 경험을 쌓아가고 있으며
-            Flutter를 이용한 크로스플랫폼 앱 개발 또한 경험이 있습니다.
+            Flutter, andorid를 이용한 크로스플랫폼과 네이티브 앱 개발 또한 경험이 있습니다.
             <br />
           </p>
         </blockquote>

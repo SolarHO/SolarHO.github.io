@@ -28,8 +28,7 @@ function Home() {
               <p className="heading-description blockquote">
                 저는 다양한 웹&앱 프레임워크를 통한 웹과 모바일 앱개발에 열정을 쏟고 있습니다.
                 JSP와 Django, Spring 등의 웹 프레임워크를 이용한 웹 개발에 대한 경험을
-                쌓고 있으며 Flutter를 이용한 모바일 크로스플랫폼 앱 개발에 대한
-                경험 또한 가지고 있습니다.
+                쌓고 있으며 Flutter와 android 등 모바일 앱 개발에 대한 경험 또한 가지고 있습니다.
               </p>
 
               <div className="heading-type">
